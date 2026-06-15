@@ -6,7 +6,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <span className="font-bold text-lg tracking-tight">NovaEvents</span>
           <a
-            href="https://github.com/OlaGreat/NovaEvents"
+            href="https://github.com/NovaFest-Labs/NovaEvents"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-slate-400 hover:text-white transition-colors"
@@ -35,7 +35,7 @@ export default function Home() {
             Explore Events
           </button>
           <a
-            href="https://github.com/OlaGreat/NovaEvents"
+            href="https://github.com/NovaFest-Labs/NovaEvents"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 hover:border-white/40 text-white font-medium px-6 py-3 rounded-lg transition-colors"
