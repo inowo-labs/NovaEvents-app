@@ -1,20 +1,9 @@
+import Nav from "./components/Nav";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      {/* Nav */}
-      <nav className="border-b border-white/10 px-6 py-4">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <span className="font-bold text-lg tracking-tight">NovaEvents</span>
-          <a
-            href="https://github.com/NovaFest-Labs/NovaEvents"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-slate-400 hover:text-white transition-colors"
-          >
-            GitHub ↗
-          </a>
-        </div>
-      </nav>
+      <Nav />
 
       {/* Hero */}
       <section className="px-6 py-28 text-center max-w-4xl mx-auto">

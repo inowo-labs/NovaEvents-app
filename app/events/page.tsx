@@ -1,22 +1,9 @@
+import Nav from "../components/Nav";
+
 export default function EventsPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      {/* Nav */}
-      <nav className="border-b border-white/10 px-6 py-4">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <a href="/" className="font-bold text-lg tracking-tight">
-            NovaEvents
-          </a>
-          <a
-            href="https://github.com/NovaFest-Labs/NovaEvents"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-slate-400 hover:text-white transition-colors"
-          >
-            GitHub ↗
-          </a>
-        </div>
-      </nav>
+      <Nav />
 
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="mb-10">
