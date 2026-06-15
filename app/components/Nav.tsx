@@ -14,6 +14,12 @@ export default function Nav() {
           >
             Events
           </Link>
+          <Link
+            href="/dashboard"
+            className="text-sm text-slate-400 hover:text-white transition-colors"
+          >
+            Dashboard
+          </Link>
           <a
             href="https://github.com/NovaFest-Labs/NovaEvents"
             target="_blank"
