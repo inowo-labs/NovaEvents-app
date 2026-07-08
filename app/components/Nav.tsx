@@ -24,6 +24,7 @@ export default function Nav() {
             href="https://github.com/NovaFest-Labs/NovaEvents"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View project on GitHub (opens in new tab)"
             className="text-sm text-slate-400 hover:text-white transition-colors"
           >
             GitHub ↗
