@@ -31,6 +31,16 @@ export default function EventsPage() {
           ))}
         </div>
 
+        {/* Empty state — shown when events array is empty */}
+        {false && (
+          <div className="text-center py-24">
+            <p className="text-slate-500 mb-4">No events yet.</p>
+            <a href="/dashboard" className="text-violet-500 hover:text-violet-400 text-sm">
+              Create the first one →
+            </a>
+          </div>
+        )}
+
         <p className="text-center text-slate-600 text-sm mt-14">
           Live event data coming soon — see{" "}
           <a
