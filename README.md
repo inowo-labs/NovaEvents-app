@@ -4,14 +4,38 @@ Frontend for NovaEvents — a transparent event management platform on Stellar.
 
 Built with Next.js, TypeScript, and Tailwind CSS.
 
-## Setup
+## Getting started
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Install dependencies
 
 ```bash
 npm install
-npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+### Set up environment
+
+```bash
+cp .env.example .env.local
+# Edit .env.local and set NEXT_PUBLIC_API_URL
+```
+
+### Run the dev server
+
+```bash
+npm run dev
+# App runs at http://localhost:3000
+```
+
+### Build for production
+
+```bash
+npm run build
+```
 
 ## Stack
 
