@@ -37,6 +37,20 @@ npm run dev
 npm run build
 ```
 
+## Environment variables
+
+The app uses the following environment variables. Copy `.env.example` to `.env.local` and fill in the values before running locally.
+
+| Variable | Description | Example |
+|---|---|---|
+| `NEXT_PUBLIC_API_URL` | Base URL for the NovaEvents API | `http://localhost:3001` |
+
+```bash
+cp .env.example .env.local
+```
+
+> `.env.local` is gitignored and should never be committed. `.env.example` is committed and kept up to date so contributors always know what variables are required.
+
 ## Stack
 
 - **Framework:** Next.js (App Router)
