@@ -1,4 +1,5 @@
 import Nav from "../../components/Nav";
+import BackButton from "../../components/BackButton";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -12,6 +13,8 @@ export default async function EventDetailPage({ params }: Props) {
       <Nav />
 
       <div className="max-w-5xl mx-auto px-6 py-16">
+        <BackButton label="Back to Events" />
+
         {/* Event header skeleton */}
         <div className="mb-10 animate-pulse">
           <div className="h-8 bg-slate-700 rounded w-1/2 mb-3" />
