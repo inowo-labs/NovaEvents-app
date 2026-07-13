@@ -21,7 +21,7 @@ export default function Nav() {
             Dashboard
           </Link>
           <a
-            href="https://github.com/NovaFest-Labs/NovaEvents"
+            href="https://github.com/inowo-labs/NovaEvents-Contract"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View project on GitHub (opens in new tab)"
