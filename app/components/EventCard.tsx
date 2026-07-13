@@ -43,8 +43,8 @@ export default function EventCard({
   );
 
   return (
-    <Link href={`/events/${id}`}>
-      <div className="bg-slate-900 border border-white/10 hover:border-violet-500/40 rounded-xl p-6 transition-colors cursor-pointer h-full flex flex-col gap-4">
+    <Link href={`/events/${id}`} className="block h-full">
+      <div className="bg-slate-900 border border-white/10 hover:border-violet-500/40 rounded-xl p-6 transition-colors h-full flex flex-col gap-4">
         <div className="flex items-start justify-between gap-3">
           <h3 className="font-semibold text-lg leading-tight">{name}</h3>
           <span
