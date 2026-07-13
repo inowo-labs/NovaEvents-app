@@ -45,6 +45,7 @@ export default function EventsPage() {
             href="https://github.com/inowo-labs/NovaEvent-api/issues/1"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="API issue #1 on GitHub (opens in new tab)"
             className="text-violet-500 hover:text-violet-400"
           >
             API issue #1
