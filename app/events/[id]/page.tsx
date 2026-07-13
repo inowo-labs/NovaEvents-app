@@ -79,6 +79,7 @@ export default async function EventDetailPage({ params }: Props) {
             href="https://github.com/inowo-labs/NovaEvent-api/issues/2"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="API issue #2 on GitHub (opens in new tab)"
             className="text-violet-500 hover:text-violet-400"
           >
             API issue #2
