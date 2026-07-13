@@ -66,9 +66,9 @@ cp .env.example .env.local
 - Sponsor view — contribute to events, see public sponsorship breakdown
 - Ticket wallet — view owned tickets, show QR for check-in
 
-See the [Issues](https://github.com/OlaGreat/NovaEvents-app/issues) tab for scoped tasks.
+See the [Issues](https://github.com/inowo-labs/NovaEvents-app/issues) tab for scoped tasks.
 
 ## Related repos
 
-- [NovaEvents contract](https://github.com/OlaGreat/NovaEvents) — Soroban smart contract (Rust)
-- [NovaEvents API](https://github.com/OlaGreat/NovaEvents-api) — off-chain indexing and notifications
+- [NovaEvents contract](https://github.com/inowo-labs/NovaEvents-Contract) — Soroban smart contract (Rust)
+- [NovaEvents API](https://github.com/inowo-labs/NovaEvent-api) — off-chain indexing and notifications
