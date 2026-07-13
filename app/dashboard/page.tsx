@@ -59,6 +59,7 @@ export default function DashboardPage() {
             href="https://github.com/inowo-labs/NovaEvents-app/issues/1"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="app issue #1 on GitHub (opens in new tab)"
             className="text-violet-500 hover:text-violet-400"
           >
             app issue #1
