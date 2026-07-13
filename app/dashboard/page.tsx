@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import Nav from "../components/Nav";
+
+export const metadata: Metadata = {
+  title: "Organizer Dashboard | NovaEvents",
+};
 
 export default function DashboardPage() {
   return (
