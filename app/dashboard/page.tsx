@@ -37,18 +37,22 @@ export default function DashboardPage() {
         <section className="mb-12 opacity-40 pointer-events-none select-none">
           <h2 className="text-xl font-semibold mb-6">Create New Event</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {["Event name", "Venue", "Description", "Funding goal (USDC)"].map(
-              (label) => (
-                <div key={label} className="flex flex-col gap-1">
-                  <label className="text-sm text-slate-400">{label}</label>
-                  <input
-                    disabled
-                    className="bg-slate-900 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white"
-                    placeholder="—"
-                  />
-                </div>
-              )
-            )}
+            {[
+              { label: "Event name", type: "text" },
+              { label: "Venue", type: "text" },
+              { label: "Description", type: "text" },
+              { label: "Funding goal (USDC)", type: "number" },
+            ].map(({ label, type }) => (
+              <div key={label} className="flex flex-col gap-1">
+                <label className="text-sm text-slate-400">{label}</label>
+                <input
+                  disabled
+                  type={type}
+                  className="bg-slate-900 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white"
+                  placeholder="—"
+                />
+              </div>
+            ))}
           </div>
           <button
             disabled
