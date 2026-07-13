@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     title: "NovaEvents — Transparent Event Management on Stellar",
     description:
       "Every sponsorship, ticket sale, and payout on-chain. Auditable and open to anyone.",
-    url: "https://novaevents.xyz",
     siteName: "NovaEvents",
     locale: "en_US",
     type: "website",
