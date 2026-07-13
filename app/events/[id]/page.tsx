@@ -76,7 +76,7 @@ export default async function EventDetailPage({ params }: Props) {
           <span className="text-slate-500 font-mono">{id}</span> — live data
           coming once{" "}
           <a
-            href="https://github.com/NovaFest-Labs/NovaEvents-api/issues/2"
+            href="https://github.com/inowo-labs/NovaEvent-api/issues/2"
             target="_blank"
             rel="noopener noreferrer"
             className="text-violet-500 hover:text-violet-400"
