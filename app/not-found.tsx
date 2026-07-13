@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "./components/Nav";
+
+export const metadata: Metadata = {
+  title: "Page Not Found | NovaEvents",
+};
 
 export default function NotFound() {
   return (
