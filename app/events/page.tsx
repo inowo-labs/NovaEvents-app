@@ -52,7 +52,7 @@ export default function EventsPage() {
         <p className="text-center text-slate-600 text-sm mt-14">
           Live event data coming soon — see{" "}
           <a
-            href="https://github.com/NovaFest-Labs/NovaEvents-api/issues/1"
+            href="https://github.com/inowo-labs/NovaEvent-api/issues/1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-violet-500 hover:text-violet-400"
