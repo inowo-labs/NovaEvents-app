@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import Nav from "../../components/Nav";
 import BackButton from "../../components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Event | NovaEvents",
+};
 
 interface Props {
   params: Promise<{ id: string }>;
