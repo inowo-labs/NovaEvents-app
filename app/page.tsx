@@ -27,7 +27,7 @@ export default function Home() {
             Explore Events
           </a>
           <a
-            href="https://github.com/NovaFest-Labs/NovaEvents"
+            href="https://github.com/inowo-labs/NovaEvents-Contract"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View smart contract source on GitHub (opens in new tab)"
